@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --primaryColor: #af9a7d;
   --mainWhite: #fff;
@@ -135,6 +136,7 @@ h6 {
 .show-nav {
   height: 100px;
 }
+
 @media screen and (min-width: 768px) {
   .nav-btn {
     display: none;
@@ -159,7 +161,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  background: url("./images/ph2.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -9,10 +9,7 @@ export default function Home() {
   return (
     <Fragment>
       <Hero>
-        <Banner
-          title="Luxurious Rooms"
-          subtitle="Deluxe rooms starting at $299"
-        >
+        <Banner title="Welcome" subtitle="Deluxe rooms starting at $300">
           <Link to="/rooms" className="btn-primary">
             Our rooms
           </Link>
